@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicios_dom</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="colo">
+<main>
+<div class="imc">
+<form action="/EjerciciosDOM/index.html" method="get"></form>
+<label for="estatura">Estatura</label> <br>
+<input type="number" id="estatura" placeholder="En centimetros" > <br>
+<label for="peso">Peso</label> <br>
+<input type="number" id="peso" placeholder="En kilogramos"> <br>
+<label for="resultado">resultado</label><br>
+<input type="text" id="resultado">
+<br>
+<br>
+<input type="submit" value="Calcular" id="calcular">
+</div>
+<div class="divisa">
+    <br>
+    <label id="intercambio">Intercambio de divisas</label>
+    <br><br>
+    <input type="text" id="monedaOne" placeholder="cantidad">
+    <br>
+    <select name="divisa" id="divisa">
+        <option value="">--selecciona una opcion--</option>
+        <option value="argentino" >Peso Argentino</option>
+        <option value="colombiano">Peso Colombiano</option>
+    </select>
+    <br>
+    <label for="dolar">Dólar estadounidense</label>
+    <br>
+    <input type="text" id="dolar">
+    <br>
+</div>
+<br>
+<div class="next">
+   <a class="a" id="12345" href="/exercise3.html" > 
+    <button >Next</button>
+   </a>
+</div>
+</main>
+<script src="/dom.js"></script>
+</body>
+</html>

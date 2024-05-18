@@ -1,0 +1,41 @@
+.notas{
+    background-color: aquamarine;
+ 
+}
+h3{
+text-align: center;
+}
+#titulo,#nota{
+  width: 80%;
+}
+
+.titu{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    padding: 2vh 0vh ;
+}
+
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-body{
+    height: 20vh;
+    width: 30vh;
+}
+#body{
+    background-color: rgb(44, 221, 162);
+}
+
+.realizadas,.buscar,.contenedor{
+    padding:2vh 3vh;
+}
+
+.colo{
+    background-color: beige;
+}
